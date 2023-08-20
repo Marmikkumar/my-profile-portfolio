@@ -1,0 +1,462 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;500;700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300&family=Roboto:wght@300;500;700&display=swap");
+
+body {
+  padding: 0%;
+  margin: 0%;
+  word-spacing: 0.5rem;
+  background-color: rgb(36, 36, 36);
+  overflow-x: hidden;
+}
+
+/* -----------    Navbar    ---------- */
+
+.Nav {
+  background-color: rgb(66, 66, 66);
+  width: 96vw;
+  height: 12vh;
+  color: white;
+  display: flex;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  justify-content: space-between;
+}
+
+.heading {
+  font-family: Dancing Script;
+  font-size: 1.5rem;
+  font-weight: 700px;
+  box-sizing: border-box;
+}
+
+.menu-align {
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+}
+
+.menubar {
+  margin: 2vh;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+
+/* -----home ------------------------------------- */
+
+.home {
+  display: flex;
+}
+
+.head-content {
+  color: white;
+  width: 40vw;
+  margin: 5vw;
+}
+
+.head-content h1 {
+  font-weight: 700px;
+  font-size: 4rem;
+}
+
+.head-content p {
+  font-size: 1.2rem;
+}
+
+.fig {
+  margin: 7vw 8vw;
+}
+
+.fig img {
+  border-radius: 0.5rem;
+  height: 55vh;
+}
+
+/* ----------------------    About        --------------------- */
+
+.about-heading {
+  margin: 3rem 2rem;
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 600px;
+  text-decoration: underline;
+}
+
+.about-content {
+  margin: 5rem 3rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* ------------------ experience ---------------- */
+
+.experience-heading {
+  margin: 5vh 3vw;
+  color: white;
+}
+
+.experience-heading h2 {
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+
+.experience-heading p {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.experience-content {
+  margin: 5vh 2vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.exp-box {
+  height: 30vh;
+  width: 25vw;
+  margin: 2vw;
+  border-top: none;
+}
+
+.exp-box p {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.exp-box i {
+  display: flex;
+  justify-content: center;
+  font-size: 15vh;
+}
+
+.exp-box i:hover {
+  font-size: 18vh;
+  transition: ease-out;
+}
+
+.exp-box p:hover {
+  font-size: 1.6rem;
+}
+
+.box-1,
+box-1 i {
+  border: 1px solid red;
+  box-shadow: 0px 10px 8px red;
+  color: red;
+}
+
+.box-2,
+box-2 i {
+  border: 1px solid blue;
+  box-shadow: 0px 10px 8px blue;
+  color: blue;
+}
+
+.box-3,
+box-3 i {
+  border: 1px solid yellow;
+  box-shadow: 0px 10px 8px yellow;
+  color: yellow;
+}
+
+.box-4,
+box-4 i {
+  border: 1px solid rgb(6, 181, 240);
+  box-shadow: 0px 10px 8px rgb(6, 181, 240);
+  color: rgb(6, 181, 240);
+}
+
+.box-5,
+box-5 i {
+  border: 1px solid green;
+  box-shadow: 0px 10px 8px green;
+  color: green;
+}
+
+.box-1,
+box-1 i {
+  border: 1px solid red;
+  box-shadow: 0px 10px 8px red;
+  color: red;
+}
+
+/* -------------- portfolio  ------------------- */
+
+.portfolio {
+  margin: 5vh 3vw;
+  color: white;
+}
+
+.portfolio h2 {
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+
+.portfolio p {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.portfolio-box {
+  margin: 5vh 5vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin: 2vw;
+  height: 35vh;
+  width: 25vw;
+  /* border: 2px solid red; */
+  box-shadow: 0px 10px 10px #888888;
+}
+
+.project img {
+  width: 25vw;
+  height: 25vh;
+}
+
+.portfolio-content {
+  display: flex;
+}
+
+.des {
+  border: 1px solid grey;
+  text-align: center;
+  width: 50%;
+  padding: 2vh 0vh;
+}
+
+.des a {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
+
+/* ------contact-------- */
+
+.contact-heading {
+  margin: 5vh 3vw;
+  color: white;
+}
+
+.contact-heading h2 {
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+
+.contact-heading p {
+  font-size: 1.2rem;
+}
+
+input,
+textarea {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  width: 50vw;
+  margin-bottom: 3vh;
+  font-size: 1.2rem;
+}
+
+button {
+  display: flex;
+  margin: 2vh auto;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  background-color: skyblue;
+  color: white;
+  border: 1px solid blue;
+  padding: 0.5rem;
+}
+
+#demo{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size: 1rem;
+  background-color: skyblue;
+  color: white;
+  padding: 1vh 1vw;
+  border-radius: 0.5rem;
+  border: 1px solid blue;
+}
+
+.footer {
+  position: fixed;
+  top: 50vh;
+  transform: translatey(-50%);
+  width: 5vh;
+  background-color: gray;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5vw;
+}
+
+.footer-link {
+  margin: 0.5vh 0vw;
+  font-size: 1.3rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* -------------------- */
+
+@media screen and (max-width: 870px) {
+  * {
+    font-size: 85%;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .Nav {
+    height: 10vh;
+  }
+
+  .Nav1 {
+    height: 100vh;
+  }
+
+  .hamburger {
+    margin-left: 3vw;
+  }
+
+  .menu-align {
+    display: none;
+  }
+
+  .bar {
+    height: 0.5rem;
+    width: 3rem;
+    background-color: white;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .bar1 {
+    transform: translateY(1.25rem) rotate(-45deg);
+  }
+  .bar2 {
+    height: 0vh;
+  }
+
+  .bar3 {
+    transform: translateY(0.25rem) rotate(45deg);
+  }
+
+  .ham-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50vh;
+    right: 50vw;
+    transform: translate(50%, -50%);
+  }
+
+  .menu-bar {
+    font-size: 2.5rem;
+    margin-bottom: 3vh;
+    list-style: none;
+    text-decoration: underline;
+  }
+
+  .home {
+    flex-direction: column;
+  }
+
+  .head-content {
+    width: 90vw;
+    text-align: center;
+  }
+
+  .fig {
+    margin: 0 auto;
+  }
+
+  .fig img {
+    width: 70vw;
+  }
+
+  .about-heading {
+    text-align: center;
+  }
+
+  .exp-box {
+    height: 30vh;
+    width: 30vw;
+    margin: 5vw;
+    border-top: none;
+  }
+
+  .portfolio-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .project {
+    width: 40vw;
+  }
+
+  .project img {
+    width: 40vw;
+  }
+
+  input,
+  textarea {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  * {
+    font-size: 80%;
+  }
+
+  .Nav {
+    height: 8vh;
+  }
+
+  .Nav1 {
+    height: 70vh;
+  }
+
+  .ham-menu {
+    position: absolute;
+    top: 40vh;
+    right: 50vw;
+    transform: translate(50%, -50%);
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .portfolio-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .project {
+    width: 80vw;
+    height: 40vh;
+    margin-bottom: 5vh;
+  }
+
+  .project img {
+    width: 80vw;
+    height: 35vh;
+  }
+
+  .footer {
+    width: 4vh;
+  }
+
+  .footer-link {
+    margin: 1vh 0.5vw;
+  }
+}
