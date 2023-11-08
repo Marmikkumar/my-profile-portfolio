@@ -38,6 +38,29 @@ export default function Portfolio() {
         </div>
 
         <div className="project">
+          <img src={Netlify} alt="" />
+          <div className="portfolio-content">
+            <div className="des">
+              <a
+                href="https://polite-cranachan-4956c4.netlify.app/"
+                target="_blank"
+              >
+                Demo
+              </a>
+            </div>
+
+            <div className="des">
+              <a
+                href="https://github.com/Marmikkumar/My-Netflix-Clone"
+                target="_blank"
+              >
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div className="project">
           <img src={list} alt="" />
           <div className="portfolio-content">
             <div className="des">
